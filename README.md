@@ -1,6 +1,6 @@
 # Cookbook Importer
 
-Provides a simple UI for entering a recipe and formatting it into a format acceptable to import into Paprika Recipe Manager.
+Provides a simple UI for entering a recipe and formatting it into a format acceptable to import into [Paprika Recipe Manager](https://www.paprikaapp.com).
 
 ## Usage
 
