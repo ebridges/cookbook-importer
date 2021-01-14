@@ -23,6 +23,8 @@ To aggregate all recipes into a single file for importing into Paprika, run `agg
 
 ## Example Output Format
 
+Documented here: https://www.paprikaapp.com/help/mac/#importrecipes
+
 _Note: not all fields are actually presented in the UI but can be easily added._
 
 ```yaml
