@@ -4,14 +4,21 @@ Provides a simple UI for entering a recipe and formatting it into a format accep
 
 ## Usage
 
+### Saving a Recipe
+
 To open the UI for entering a single recipe:
 
-```
+```sh
+$ export FLASK_APP=app.py
+$ export FLASK_ENV=development
+$ export FLASK_DEBUG=0
 $ flask run
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
 
 - this writes the recipe to a subfolder named `./cookbook`
+
+### Combining for Import
 
 To aggregate all recipes into a single file for importing into Paprika, run `aggregate.py`.
 
