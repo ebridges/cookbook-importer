@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: Helvetica, sans-serif;
+            font-size: 12px;
+        }
+        
+        label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        <hr/>
+    </p>
+    <form action="/convert" method="POST" enctype="multipart/form-data">
+        <p>
+            <label for="recipe_name">Recipe Name</label>
+            <input type="text" id="recipe_name" name="recipe_name">
+        </p>
+        <p>
+            <label for="servings">Num Servings</label>
+            <input type="text" id="servings" name="servings">
+        </p>
+        <p>
+            <label for="source">Recipe source</label>
+            <input type="text" id="source" name="source">
+        </p>
+        <p>
+            <label for="source_url">Recipe source URL</label>
+            <input type="text" id="source_url" name="source_url">
+        </p>
+        <p>
+            <label for="prep_time">Prep time</label>
+            <input type="text" id="prep_time" name="prep_time">
+        </p>
+        <p>
+            <label for="cook_time">Cook time</label>
+            <input type="text" id="cook_time" name="cook_time">
+        </p>
+        <p>
+            <label for="categories">Categories (comma separated)</label>
+            <input type="text" id="categories" name="categories">
+        </p>
+        <p>
+            <label for="notes">Notes</label>
+            <textarea id="notes" name="notes" rows="10" cols="60"></textarea>
+        </p>
+        <p>
+            <label for="description">Description</label>
+            <textarea id="description" name="description" rows="10" cols="60"></textarea>
+        </p>
+        <p>
+            <label for="ingredients">Ingredients</label>
+            <textarea id="ingredients" name="ingredients" rows="12" cols="60"></textarea>
+        </p>
+        <p>
+            <label for="directions">Directions</label>
+            <textarea id="directions" name="directions" rows="12" cols="60"></textarea>
+        </p>
+        <p>
+            <label for="recipe_photo">Photo</label>
+            <input type="file" id="recipe_photo" name="recipe_photo" accept="image/*">
+        </p>
+        <p>
+            <label for="submit">Save Recipe</label>
+            <input type="submit" name="submit" id="submit">
+        </p>
+    </form>
+</body>
+
+</html>
